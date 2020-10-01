@@ -65,14 +65,14 @@ a.btn {
 .btn:hover,
 a.btn:hover {
   color: #fff;
-  background: #00a5bb;
+  background: #bb0000;
 }
 #topcontrol {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  background: #008fa1;
+  background: #a10000;
   color: #fff;
   text-align: center;
   display: inline-block;
@@ -92,7 +92,7 @@ a.btn:hover {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
 }
 #topcontrol:hover {
-  background: #007888;
+  background: #880000;
   color: #fff;
 }
 #topcontrol .svg-inline--fa {
@@ -102,7 +102,7 @@ a.btn:hover {
   font-weight: normal;
 }
 .header {
-  background: #00bcd4;
+  background: #d40000;
   color: #fff;
 }
 .header a {
@@ -173,7 +173,7 @@ a.btn:hover {
   margin-bottom: 30px;
 }
 .header .intro {
-  background: #00a5bb;
+  background: #bb0000;
   padding-top: 90px;
   padding-bottom: 60px;
   position: relative;
@@ -184,7 +184,7 @@ a.btn:hover {
   margin: 0 auto;
 }
 .header .contact-info {
-  background: #008fa1;
+  background: #a10000;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 16px;
@@ -213,7 +213,7 @@ a.btn:hover {
   position: relative;
 }
 .page-nav-wrapper {
-  background: #007888;
+  background: #880000;
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -229,7 +229,7 @@ a.btn:hover {
   left: 0;
   width: 100%;
   z-index: 100;
-  background: #00bcd4;
+  background: #d40000;
 }
 .page-nav-wrapper a {
   color: rgba(255, 255, 255, 0.6);
@@ -298,7 +298,7 @@ a.btn:hover {
   text-align: center;
 }
 .timeline {
-  border-left: 3px solid #00bcd4;
+  border-left: 3px solid #d40000;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   position: relative;
@@ -329,7 +329,7 @@ a.btn:hover {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #fff;
-  border: 3px solid #00bcd4;
+  border: 3px solid #d40000;
 }
 .timeline .item:after {
   content: "";
@@ -347,7 +347,7 @@ a.btn:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #00bcd4;
+  background: #d40000;
   z-index: 10;
 }
 .timeline .work-place {
@@ -375,7 +375,7 @@ a.btn:hover {
 }
 .timeline .job-meta .title {
   font-size: 18px;
-  color: #00bcd4;
+  color: #d40000;
   max-width: 220px;
 }
 .timeline .job-meta .time {
@@ -392,7 +392,7 @@ a.btn:hover {
 }
 .education-section .degree {
   font-size: 18px;
-  color: #00bcd4;
+  color: #d40000;
   margin-top: 0;
   margin-bottom: 0px;
 }
@@ -492,7 +492,7 @@ a.btn:hover {
   width: 36px;
   height: 36px;
   display: inline-block;
-  background: #00bcd4;
+  background: #d40000;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -530,7 +530,7 @@ a.btn:hover {
   cursor: pointer;
 }
 .testimonials-section .carousel-indicators li.active {
-  background-color: #00bcd4;
+  background-color: #d40000;
   width: 10px;
   height: 10px;
   margin: 0;
@@ -558,8 +558,8 @@ a.btn:hover {
   margin-right: 0;
 }
 .portfolio-section .filters .type.active {
-  color: #00bcd4;
-  border-bottom: 2px solid #00bcd4;
+  color: #d40000;
+  border-bottom: 2px solid #d40000;
 }
 .portfolio-section .item {
   margin-bottom: 30px;
@@ -568,7 +568,7 @@ a.btn:hover {
   margin-bottom: 0;
 }
 .portfolio-section .item-inner {
-  background: #00bcd4;
+  background: #d40000;
   color: #fff;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -584,7 +584,7 @@ a.btn:hover {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 .portfolio-section .item-inner:hover {
-  background: #00c5de;
+  background: #de0000;
 }
 .portfolio-section .item-inner:hover img {
   -webkit-opacity: 0.9;
@@ -645,7 +645,7 @@ a.btn:hover {
   margin-bottom: 15px;
 }
 .contact-section .service-list .svg-inline--fa {
-  color: #00bcd4;
+  color: #d40000;
   margin-right: 5px;
 }
 .contact-section .social {
@@ -664,7 +664,7 @@ a.btn:hover {
   color: #8a8a8a;
 }
 .contact-section .social a:hover {
-  color: #00bcd4;
+  color: #d40000;
 }
 .footer .container {
   padding: 30px;
@@ -872,16 +872,16 @@ a.btn:hover {
   border: 2px solid #fff;
 }
 .config-panel #color-options li.theme-1 a {
-  background: #00bcd4;
+  background: #d40000;
 }
 .config-panel #color-options li.theme-2 a {
-  background-color: #03a9f4;
+  background-color: #f40303;
 }
 .config-panel #color-options li.theme-3 a {
-  background-color: #009688;
+  background-color: #960000;
 }
 .config-panel #color-options li.theme-4 a {
-  background-color: #4caf50;
+  background-color: #af634c;
 }
 .config-panel #color-options li.theme-5 a {
   background-color: #8bc34a;
@@ -911,7 +911,7 @@ a.btn:hover {
   background-color: #3f51b5;
 }
 .config-panel #color-options li.theme-14 a {
-  background-color: #2196f3;
+  background-color: #f32160;
 }
 .config-panel #color-options li.theme-15 a {
   background-color: #9c27b0;
