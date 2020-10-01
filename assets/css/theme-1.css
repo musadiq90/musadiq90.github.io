@@ -34,7 +34,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #007888;
+  color: #f54444;
 }
 a:focus {
   text-decoration: none;
@@ -44,7 +44,7 @@ p {
 }
 .btn,
 a.btn {
-  background: #008fa1;
+  background: #eb2424;
   color: #fff;
   padding: 8px 15px;
   -webkit-border-radius: 2px;
