@@ -152,13 +152,19 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Accordion Item #1
+                How to get Null columns/ number of Null rows in PL/SQL?
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the 
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                SELECT UT.TABLE_NAME, UTC.COLUMN_NAME, UT.NUM_ROWS , UTC.NUM_NULLS, UT.NUM_ROWS - UTC.NUM_NULLS COUNT
+  FROM    USER_TABLES UT
+       INNER JOIN
+          USER_TAB_COLUMNS UTC
+       ON UT.TABLE_NAME = UTC.TABLE_NAME
+ WHERE     UT.TABLE_NAME IN ( 
+'STG_LOAN_CONTRACTS'
+) AND UT.NUM_ROWS - UTC.NUM_NULLS  > 0
               </div>
             </div>
           </div>
