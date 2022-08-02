@@ -157,14 +157,14 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                SELECT UT.TABLE_NAME, UTC.COLUMN_NAME, UT.NUM_ROWS , UTC.NUM_NULLS, UT.NUM_ROWS - UTC.NUM_NULLS COUNT
-  FROM    USER_TABLES UT
-       INNER JOIN
-          USER_TAB_COLUMNS UTC
-       ON UT.TABLE_NAME = UTC.TABLE_NAME
+                SELECT UT.TABLE_NAME, UTC.COLUMN_NAME, UT.NUM_ROWS , UTC.NUM_NULLS, UT.NUM_ROWS - UTC.NUM_NULLS COUNT <br>
+  FROM    <strong> USER_TABLES UT </strong> <br>
+       INNER JOIN <br>
+       <strong>  USER_TAB_COLUMNS UTC </strong><br>
+       ON UT.TABLE_NAME = UTC.TABLE_NAME<br>
  WHERE     UT.TABLE_NAME IN ( 
 'STG_LOAN_CONTRACTS'
-) AND UT.NUM_ROWS - UTC.NUM_NULLS  > 0
+) <br>AND UT.NUM_ROWS - UTC.NUM_NULLS  > 0
               </div>
             </div>
           </div>
