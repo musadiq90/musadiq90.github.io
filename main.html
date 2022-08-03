@@ -150,25 +150,7 @@
       <div class='container mb-5'>
         <div class="accordion" id="accordionExample">
          
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingfirst">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#headingfirst" aria-expanded="false" aria-controls="headingfirst">
-                How to get Null columns/ number of Null rows in PL/SQL?
-              </button>
-            </h2>
-            <div id="headingfirst" class="accordion-collapse collapse" aria-labelledby="headingfirst" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                SELECT UT.TABLE_NAME, UTC.COLUMN_NAME, UT.NUM_ROWS , UTC.NUM_NULLS, UT.NUM_ROWS - UTC.NUM_NULLS COUNT <br>
-  FROM    <strong> USER_TABLES UT </strong> <br>
-       INNER JOIN <br>
-       <strong>  USER_TAB_COLUMNS UTC </strong><br>
-       ON UT.TABLE_NAME = UTC.TABLE_NAME<br>
- WHERE     UT.TABLE_NAME IN ( 
-'STG_LOAN_CONTRACTS'
-) <br>AND UT.NUM_ROWS - UTC.NUM_NULLS  > 0
-              </div>
-            </div>
-          </div>
+          
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
